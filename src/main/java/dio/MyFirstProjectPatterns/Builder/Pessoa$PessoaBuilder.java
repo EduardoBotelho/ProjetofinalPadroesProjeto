@@ -1,4 +1,4 @@
-package dio.MyFirstProjectPatterns.classes;
+package dio.MyFirstProjectPatterns.Builder;
 
 public class Pessoa$PessoaBuilder {
     private String nome;

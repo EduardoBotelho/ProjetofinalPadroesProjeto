@@ -1,10 +1,6 @@
-package dio.MyFirstProjectPatterns;
+package dio.MyFirstProjectPatterns.chain;
 
-import chain.Button;
-import chain.Dialog;
-import chain.Widget;
-
-public class Client {
+public class TesteChain {
     public static void main(String[] args) {
 
         Widget w = new Widget(null);

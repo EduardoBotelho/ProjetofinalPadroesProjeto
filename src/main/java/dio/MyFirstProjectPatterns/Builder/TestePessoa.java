@@ -1,4 +1,4 @@
-package dio.MyFirstProjectPatterns.classes;
+package dio.MyFirstProjectPatterns.Builder;
 
 public class TestePessoa {
     public static void main(String[] args) {
