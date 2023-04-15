@@ -7,18 +7,18 @@ import javax.persistence.Id;
 public class Empresa {
 
     @Id
-    private String cnpj;
+    private Long id;
     private String nome;
 
     public Empresa() {
     }
 
-    public String getCnpj() {
-        return cnpj;
+    public Long getid() {
+        return id;
     }
 
-    public void setCnpj(String cnpj) {
-        this.cnpj = cnpj;
+    public void setid(Long id) {
+        this.id = id;
     }
 
     public String getNome() {
@@ -32,7 +32,7 @@ public class Empresa {
     @Override
     public String toString() {
         return "Empresa{" +
-                "cnpj='" + cnpj + '\'' +
+                "cnpj='" + id + '\'' +
                 ", nome='" + nome + '\'' +
                 '}';
     }

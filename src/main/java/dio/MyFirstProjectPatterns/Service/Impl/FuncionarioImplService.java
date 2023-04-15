@@ -13,8 +13,7 @@ import java.util.Optional;
 public class FuncionarioImplService implements FuncionarioService {
     @Autowired
     private FuncionarioRepository funcionarioRepository;
-    @Autowired
-    private EmpresaRepository empresaRepository;
+
 
     @Override
     public Iterable<Funcionario> buscarTodos(){
