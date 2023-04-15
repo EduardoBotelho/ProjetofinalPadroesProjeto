@@ -10,7 +10,7 @@ import org.springframework.web.bind.annotation.*;
 
 
 @RestController
-@RequestMapping("funcionarios")
+@RequestMapping("/funcionario")
 public class FuncionarioController {
 
     @Autowired
@@ -19,7 +19,7 @@ public class FuncionarioController {
     @Autowired
     private FuncionarioRepository repository;
 
-    @GetMapping
+    @GetMapping("/buscarTodos")
     public ResponseEntity<Iterable<Funcionario>> buscarTodos() {
         return ResponseEntity.ok(funcionarioService.buscarTodos());
     }
